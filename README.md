@@ -1,16 +1,129 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# 🧮 Minimal Calculator
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern, minimalistic calculator built with **React** and **Tailwind CSS**.
+Designed with a clean glassmorphism interface and smooth user interaction.
 
-## React Compiler
+🔗 **Live Demo:**
+[https://calculator-nine-azure-90.vercel.app/](https://calculator-nine-azure-90.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 **GitHub Repository:**
+[https://github.com/muzaffarbekmustafayev/Calculator.git](https://github.com/muzaffarbekmustafayev/Calculator.git)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* ➕ Basic arithmetic operations (+ − × ÷)
+* 🧹 Clear (C) functionality
+* 🧠 Real-time expression building
+* ⚠️ Error handling for invalid expressions
+* 🎨 Modern glass-style UI
+* 🌙 Dark gradient background
+* 📱 Fully responsive layout
+
+---
+
+## 🛠 Tech Stack
+
+* **React (Hooks)**
+
+  * `useState`
+* **Tailwind CSS**
+* Functional Component Architecture
+
+---
+
+## 🎨 UI Design Concept
+
+The calculator features:
+
+* Gradient dark background
+* Glassmorphism container with blur effect
+* Large right-aligned display
+* Rounded interactive buttons
+* Subtle hover transitions
+* Highlighted action buttons (Clear / Equals)
+
+Minimal but premium aesthetic.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/muzaffarbekmustafayev/Calculator.git
+cd Calculator
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run development server
+
+For Vite:
+
+```bash
+npm run dev
+```
+
+For Create React App:
+
+```bash
+npm start
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │     └── Calculator.jsx
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+## 🧠 Logic Overview
+
+* User input builds a mathematical expression.
+* On "=" press, the expression is evaluated.
+* Invalid expressions return an error state.
+* "C" resets the calculator state.
+* Layout is built using Tailwind CSS grid system.
+
+---
+
+## 🧩 Possible Improvements
+
+* ⌨ Keyboard support
+* 📜 Calculation history panel
+* 🧮 Scientific calculator mode
+* 🔄 Custom expression parser (replace eval)
+* 🟦 TypeScript version
+* 🌗 Dark / Light theme toggle
+* 🧪 Unit tests
+
+---
+
+## 💡 Why This Project?
+
+This project demonstrates:
+
+* Clean state management
+* UI composition using Tailwind
+* Component-based architecture
+* Interactive logic handling
+* Minimal yet polished interface design
+
+It is a compact project that balances visual elegance with functional clarity.
+
